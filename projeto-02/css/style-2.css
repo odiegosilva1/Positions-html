@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(114, 116, 117);
+}
+
+.div-right {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(19, 18, 18);
+    border: 1px solid whitesmoke;
+    right:  ;    
+}
+
+.div-left {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(19, 18, 18);
+    border: 1px solid whitesmoke;
+    
+}
