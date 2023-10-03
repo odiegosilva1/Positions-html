@@ -1,0 +1,49 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #cccccc;
+    position: relative;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+.bloco1 {
+    height: 40%;
+    width: 95%;
+    background-color: black;
+    background-color: rgb(29, 29, 29);
+    border-radius: 50px;
+    position: absolute;
+    left: calc(50% - 47.5%);
+    top: calc(25% - 20%);
+}
+
+.texto1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: right;
+    padding: 25px;
+}
+
+.bloco2 {
+    height: 40%;
+    width: 95%;
+    background-color: black;
+    background-color: rgb(29, 29, 29);
+    position: absolute;
+    left: calc(50% - 47.5%);
+    top: calc(75% - 20%);
+    border: solid 3px red;
+    overflow-y: scroll;
+}
+
+.texto2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    padding: 25px;
+}
