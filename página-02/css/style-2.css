@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #cccccc;
+    position: fixed;
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    position: fixed;
+}
+
+.div1 {
+    left: 0;
+    top: 0;
+}
+
+.div2 {
+    left: 0;
+    bottom: 0;
+}
+
+.div3 {
+    right: 0;
+    top: 0;
+}
+
+.div4 {
+right: 0;
+bottom: 0;
+}
